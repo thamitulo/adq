@@ -1,8 +1,8 @@
-com/ae/adq/maha/interview/rest/InventoryControllerTest.java
- com.ae.adq.maha.interview.rest.InventoryControllerTest
+com/ae/adq/maha/interview/helpers/CommonUtils.java
+ com.ae.adq.maha.interview.helpers.CommonUtils
 com/ae/adq/maha/interview/rest/MockControllerTest.java
  com.ae.adq.maha.interview.rest.MockControllerTest
 com/ae/adq/maha/interview/InterviewApplicationTests.java
  com.ae.adq.maha.interview.InterviewApplicationTests
-com/ae/adq/maha/interview/helpers/CommonUtils.java
- com.ae.adq.maha.interview.helpers.CommonUtils
+com/ae/adq/maha/interview/rest/InventoryControllerTest.java
+ com.ae.adq.maha.interview.rest.InventoryControllerTest

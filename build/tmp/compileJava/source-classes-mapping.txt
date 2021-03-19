@@ -2,7 +2,20 @@ com/ae/adq/maha/interview/configurations/SpringFoxConfig.java
  com.ae.adq.maha.interview.configurations.SpringFoxConfig
 com/ae/adq/maha/interview/package-info.java
  com.ae.adq.maha.interview.package-info
-com/ae/adq/maha/interview/rest/InventoryController.java
- com.ae.adq.maha.interview.rest.InventoryController
+com/ae/adq/maha/interview/models/response/InventoryPayload.java
+ com.ae.adq.maha.interview.models.response.InventoryPayload
+com/ae/adq/maha/interview/models/request/InventoryDto.java
+ com.ae.adq.maha.interview.models.request.InventoryDto
+ com.ae.adq.maha.interview.models.request.InventoryDto$InventoryDtoBuilder
+com/ae/adq/maha/interview/entities/Inventory.java
+ com.ae.adq.maha.interview.entities.Inventory
+com/ae/adq/maha/interview/repositories/InventoryRepository.java
+ com.ae.adq.maha.interview.repositories.InventoryRepository
 com/ae/adq/maha/interview/InterviewApplication.java
  com.ae.adq.maha.interview.InterviewApplication
+com/ae/adq/maha/interview/services/CalculationsInterface.java
+ com.ae.adq.maha.interview.services.CalculationsInterface
+com/ae/adq/maha/interview/services/PriceCalculationsService.java
+ com.ae.adq.maha.interview.services.PriceCalculationsService
+com/ae/adq/maha/interview/rest/InventoryController.java
+ com.ae.adq.maha.interview.rest.InventoryController
