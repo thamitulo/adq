@@ -1,0 +1,8 @@
+com/ae/adq/maha/interview/configurations/SpringFoxConfig.java
+ com.ae.adq.maha.interview.configurations.SpringFoxConfig
+com/ae/adq/maha/interview/package-info.java
+ com.ae.adq.maha.interview.package-info
+com/ae/adq/maha/interview/rest/InventoryController.java
+ com.ae.adq.maha.interview.rest.InventoryController
+com/ae/adq/maha/interview/InterviewApplication.java
+ com.ae.adq.maha.interview.InterviewApplication

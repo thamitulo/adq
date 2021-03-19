@@ -4,9 +4,9 @@ plugins {
 	id 'java'
 }
 
-group = 'com.ae.adq'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+group = 'com.ae.adq.maha'
+version = '1.0.1.RELEASE'
+sourceCompatibility = '8'
 
 configurations {
 	compileOnly {
@@ -21,9 +21,16 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation "io.springfox:springfox-boot-starter:3.0.0"
+	compile "io.springfox:springfox-swagger-ui:3.0.0"
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation'junit:junit:4.12'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.4.2'
+	testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
+	testRuntime 'org.junit.vintage:junit-vintage-engine:5.4.2'
+	runtimeOnly 'com.h2database:h2'
 }
 
 test {
