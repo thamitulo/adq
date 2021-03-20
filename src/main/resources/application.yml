@@ -6,6 +6,7 @@ spring:
     banner-mode: "off"
 
   datasource:
+    data: classpath:sql/data.sql
     driverClassName: org.h2.Driver
     password: ''
     url: jdbc:h2:mem:testdb
@@ -14,6 +15,6 @@ spring:
     console:
       enabled: true
   jpa:
+    hibernate:
+      ddl-auto: create
     database-platform: org.hibernate.dialect.H2Dialect
-  liquibase:
-    changeLog: classpath:/db/adq-changelog/master.xml

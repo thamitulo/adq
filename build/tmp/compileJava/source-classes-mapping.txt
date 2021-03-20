@@ -11,11 +11,13 @@ com/ae/adq/maha/interview/entities/Inventory.java
  com.ae.adq.maha.interview.entities.Inventory
 com/ae/adq/maha/interview/repositories/InventoryRepository.java
  com.ae.adq.maha.interview.repositories.InventoryRepository
-com/ae/adq/maha/interview/InterviewApplication.java
- com.ae.adq.maha.interview.InterviewApplication
-com/ae/adq/maha/interview/services/CalculationsInterface.java
- com.ae.adq.maha.interview.services.CalculationsInterface
+com/ae/adq/maha/interview/models/InventoryEnum.java
+ com.ae.adq.maha.interview.models.InventoryEnum
 com/ae/adq/maha/interview/services/PriceCalculationsService.java
  com.ae.adq.maha.interview.services.PriceCalculationsService
 com/ae/adq/maha/interview/rest/InventoryController.java
  com.ae.adq.maha.interview.rest.InventoryController
+com/ae/adq/maha/interview/InterviewApplication.java
+ com.ae.adq.maha.interview.InterviewApplication
+com/ae/adq/maha/interview/services/CalculationsInterface.java
+ com.ae.adq.maha.interview.services.CalculationsInterface

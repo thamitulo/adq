@@ -1,8 +1,7 @@
 package com.ae.adq.maha.interview.rest;
 
 import com.ae.adq.maha.interview.helpers.CommonUtils;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
+ 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.http.MediaType;
